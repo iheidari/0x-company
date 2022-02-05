@@ -7,7 +7,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>0x Code limited</title>
+        <title>0x Code Limited</title>
         <meta
           name="description"
           content="Official website of 0x Code Limited company"
@@ -16,7 +16,10 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>0x</h1>
+        <h1 className={styles.title}>
+          <code className={styles.code}>0x</code>
+          Code Limited
+        </h1>
 
         <p className={styles.description}>loading...</p>
       </main>
