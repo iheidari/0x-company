@@ -17,10 +17,8 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          <code className={styles.code}>0x</code>
-          Code Limited
+          <code className={styles.code}>0xC0DE LIMITED</code>
         </h1>
-
         <p className={styles.description}>loading...</p>
       </main>
     </div>
