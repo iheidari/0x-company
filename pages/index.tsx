@@ -19,7 +19,7 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>
           <code className={styles.code}>0xC0DE LIMITED</code>
         </h1>
-        <p className={styles.description}>loading...</p>
+        <p className={styles.description}>info@0x.company</p>
       </main>
     </div>
   );

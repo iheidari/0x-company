@@ -61,7 +61,8 @@
 }
 
 .code {
-  background: #fafafa;
+  background: #00c0de;
+  color:#c0de;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
