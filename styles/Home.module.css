@@ -28,46 +28,18 @@
   flex-grow: 1;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
 .title {
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
 }
 
-.title,
 .description {
   text-align: center;
-}
-
-.title .code {
-  font-size: 4rem;
-}
-
-.description {
+  color: #f1c54e;
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
-}
-
-.code {
-  background: #00c0de;
-  color:#c0de;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 .grid {

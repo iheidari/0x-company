@@ -17,9 +17,26 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          <code className={styles.code}>0xC0DE LIMITED</code>
+          <Image
+            src="/0x-code-limited-logo.png"
+            width={534}
+            height={154}
+            alt="0x Code Limited Logo"
+          />
         </h1>
-        <p className={styles.description}>info@0x.company</p>
+
+        <p className={styles.description}>Comming soon...</p>
+
+        <p className={styles.description}>
+          For more information please contact:
+          <br />
+          <Image
+            src="/email.png"
+            alt="email of company"
+            width={260}
+            height={42}
+          />
+        </p>
       </main>
     </div>
   );
