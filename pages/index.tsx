@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
 import Projects from "../ui/sections/projects";
 import Hero from "../ui/sections/hero";
 

@@ -17,7 +17,11 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <Component {...pageProps} />
+      <div className="flex items-center justify-center min-h-screen">
+        <div className="max-w-5xl w-full">
+          <Component {...pageProps} />
+        </div>
+      </div>
       <Footer />
     </div>
   );
